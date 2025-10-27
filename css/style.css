@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.headerBox{
+    background-color: #07162d;
+}
+.navbarFlex{
+    display: flex;
+    justify-content:space-between;  
+    align-items:center;
+}
+.menu li{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu li:hover{
+    color: orange;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu li{
+    /* padding: 10px 30px; */
+}
+.menu{
+    width: 50%;
+}
+.headerBox{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+/* banner css */
+.heroSection{
+    background-image: url(../img/banner.png);
+    padding: 200px 0px;
+    background-size: cover;
+    background-position: center;
+}
+.inner_content{
+    /* padding: 0px 100px; */
+    text-align: center;
+}
+.inner_content h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.inner_content p{
+    font-size: 22px;
+    color: white;
+}
+.inner_content button{
+    background-color: orange;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.inner_content button:hover{
+    background-color: white;
+    color: #07162d;
+}
+
+.text{
+    padding: 20px;
+    font-size: 30px;
+}
