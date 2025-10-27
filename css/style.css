@@ -29,12 +29,20 @@
 .menu{
     width: 50%;
 }
-.headerBox{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
+.headerBox {
+  position: relative; /* normal flow before scroll */
+  width: 100%;
+  background-color: #07162d;
+  transition: all 0.3s ease;
+}
+
+.stickyHeader {
+  position: fixed; /* becomes fixed after scroll 400 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange; /* change color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 /* banner css */
 .heroSection{
@@ -70,4 +78,5 @@
 .text{
     padding: 20px;
     font-size: 30px;
+
 }
